@@ -1,6 +1,6 @@
 --- 
-title: "YOUR TITLE HERE"
-author: "YOUR NAME HERE"
+title: "ENSAE-Mapping"
+author: "Hesu Yoon"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 ---

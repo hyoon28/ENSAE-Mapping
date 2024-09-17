@@ -1,9 +1,42 @@
 --- 
 title: "ENSAE-Mapping"
 author: "Hesu Yoon"
-date: "`r Sys.Date()`"
+date: "Last updated: `r Sys.Date()`"
 site: bookdown::bookdown_site
+description: "This is a website with tutorials for Advanced Quantitative Methods in Contemporary Sociology's Spatial Data and Mapping module."
+
 ---
 
-# Welcome to Spatial data course!
+# 1. About
+
+The social life is embedded in space. The advent of digital technology, once believed to jeopardize the significance of space, mediates and reconfigures how people experience and navigate places. From pandemic to climate change to globalizing gentrification and migration, there are abundant sociological inquiries that require the understanding of how social groups, institutions, and resources are spatially organized. This module is designed to equip students with tools that will help them explore these topics.
+
+The following is a series of tutorials prepared for the Spatial Data and Mapping module from Advanced Quantitative Methods in Contemporary Sociology course. This module specifically aims to teach students how to gather, process, and visualize spatial data for sociological research. Some prior experience or familiarity with quantitative data and statistical software (R) is necessary to follow the tutorials. However, no prior experience in *spatial* data and/or software is assumed.
+
+Each tutorial is a chapter in this website. You can navigate through the chapters using the sidebar. 
+
+
+## Table of Contents
+```{r, echo=FALSE}
+
+toc_tbl <- data.frame(
+  Chapter = c("2", "3", "4", "5", "6", "7", "8"),
+  Description = c(
+    "Chapter 2 explains how to use Social Explorer to collect demographic data from the U.S. Census.",
+    "Chapter 3 introduces the ArcGIS Online interface.", 
+    "Chapter 4 explains the steps for creating a reference map and introduces geocoding, map symbology, and printing static PDF maps.",
+    "Chapter 5 outlines the steps for analyzing crime data. The also chapter introduces spatial joins, clustering, heat mapping, hot spots, and disaggregating data using filters.",
+    "Chapter 6 demonstrates techniques for mapping racial composition and segregation. The chapter introduces animated time-series maps, choropleth maps, thematic categorical maps, and key segregation measures.",
+    "Chapter 7 explains how to map gentrification. The chapter defines and operationalizes gentrification, reviews how to create a thematic categorical map, and how to access historical Google Street View images. There is an optional section on configuring pop-ups for different types of spatial layers.",
+    "Chapter 8 introduces the reader to the classic story map templates and how to prepare a story map. Examples are featured in the chapter along with specific tips for presenting the time series maps and incorporating design features into the story map."
+  )
+)
+
+kbl(toc_tbl, booktabs = TRUE) %>%
+  kable_styling(full_width = FALSE) %>%
+  column_spec(1, bold = T, border_right = T) %>%
+  column_spec(2, width = "30em") %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+
+```
 

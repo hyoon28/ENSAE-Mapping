@@ -1,0 +1,19 @@
+# Geocoding and spatial join
+
+1. address into lattitude and longitutde
+
+2. point into boundary 
+
+# Mapping
+
+1. is it qualitative or quantitative (average make sense?)
+  1.1 if qualitative, use different colors or shapes (nominal or ordinal variables) --> typology map
+    e.g., gentrifying vs. non-gentrifying tracts
+2. does the sum make sense?
+  2.1 absolute - size (e.g., total population, total number of museums) --> proportional symbol 
+  2.2. relative - color gradiation (e.g., unemployment rate, birth rate) --> chorolpeth map
+
+
+# Exercise
+1. Create a map of ...
+

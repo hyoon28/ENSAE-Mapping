@@ -2,26 +2,20 @@
 
 In this chapter, we will discuss two different types of spatial data that are commonly used for sociological research.
 
-## Aggregated demographics 
+## People: Demographic data
 
 To understand migration and residential patterns, sociologists often study where people live and move to. Topics like segregation, gentrification, integration/assimilation, and diversity/fractionalization can be studied using aggregated demographic data for a given geographic unit. In conducting such analysis, defining a geographic unit and boundary suitable for your research question is critical.
 
-Are you interested in nations, cities, regions, or neighborhoods? How do you define their boundaries? Is relevant data available?
+![Gentrification Stage Scores in Chicago and Seattle. Source: Hwang, Jackelyn. 2015.doi: 10.1177/0002716215579823](/Users/hesuyoon/Documents/ENSAE-CREST/2024/Teaching/ENSAE-Mapping/images/figure1.png)
 
-![Percent white in New York City](images\loggingin.png)
+Are you interested in nations, cities, regions, or neighborhoods? How do you define their boundaries? Is relevant data available? Aggregated demographic data is often collected and disseminated by national and municipal government, as well as international organizations (e.g., United Nations). Check out the following data sources:
 
-![Population density in France](images\loggingin.png)
+* Frech government
+* US data
 
-![Number of tourist receiving countries the world](images\loggingin.png)
+Exercise: Think about a geographic unit that you are interested in exploring. Find and get your data (attributes and boundaries). Define and justify your boundary.
 
-Exercise: Think about a geographic unit that you are interested in exploring. Find if the data is available (attributes and boundaries). Define and justify your boundary.
-
-Aggregated demographic data is often collected and disseminated by national and municipal government, as well as international organizations (e.g., United Nations). Check out the following data sources:
-
-1. United States: Social Explorer/IPUMS - shapefile, attributes at the geoboundary
-2. France
-
-## Point of interest 
+## Insfratructure and Institutions: Point of interest data
 
 Google Places API
 

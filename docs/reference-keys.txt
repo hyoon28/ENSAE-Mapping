@@ -1,3 +1,12 @@
-welcome-to-spatial-data-course
-mapping
+about
+table-of-contents
+spatial-data-for-sociological-research
+aggregated-demographics
+point-of-interest
+explore-further-other-types-of-spatial-data
+geocoding-and-spatial-join
 geocoding
+spatial-join
+exercise
+mapping
+exercise-1
